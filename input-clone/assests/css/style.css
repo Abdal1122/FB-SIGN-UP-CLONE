@@ -1,0 +1,81 @@
+
+
+.main-wrapper {
+    position: relative;
+    display: flex;
+}
+
+
+.transparent-bgc{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    inset: 0;
+
+}
+
+.main-wrapper img{
+    width: 100%;
+}
+.main-wrapper .container{
+    width: 100%;
+    margin: 16px;
+}
+
+.signup-wrapper{
+    background: rgb(255, 255, 255);
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form .user-name{
+    margin-bottom: 16px;
+}
+form .user-name input{
+    padding: 8px;
+    margin-right: 16px;
+
+}
+form .email-pass {
+    margin-bottom: 16px;
+}
+form .email-pass input{
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 16px;
+
+}
+.dob{
+    margin-bottom: 16px;
+}
+.dob label{
+    display: block;
+    margin-bottom: 8px;
+}
+.dob select{
+    margin-right: 16px;
+}
+
+.gender-wrapper{
+    display: flex;
+
+    
+
+}
+
+.gender-wrapper .gender-1{
+    border: solid grey;
+    margin-right: 50px;
+    
+    
+
+}
+
+.gender-wrapper .gender-1 .text-fml{
+    margin-right: 40px;
+}
+
